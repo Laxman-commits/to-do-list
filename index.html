@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main_outer">
+        <div class="main">
+
+            <div class="main__head">
+                <div class="main__head--left">
+                    <h2>My Notes</h2>
+                    <div class="date"></div>
+                </div>
+                <div class="main__head--right">
+                    <div class="main__head--bulb">
+                        <i class="fa-regular fa-lightbulb " style="color: white;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="main__foot">
+                <div class="main__foot-addtask">
+                    <div class="main__foot-inside">
+                        <label class="main__plus-icon" for="text"> <i class="fa-solid fa-plus"
+                                style="color: white;"></i>
+                        </label>
+                        <input type="text" id="item" id="taskInput" placeholder="Add a task">
+                        </label>
+                        <button class="addTask"> <i class="fa-regular fa-paper-plane"
+                                style="color: rgb(87, 80, 80);"></i></button>
+                    </div>
+                </div>
+                <div class="taskList">
+                    <ul id="task_list" id="to-do-box">
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
